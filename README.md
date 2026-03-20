@@ -24,10 +24,22 @@ JWT_SECRET="your-secret-key"
 
 ### 3. Installation & Run
 ```bash
-yarn install
-yarn dev
+pnpm install
+pnpm dev
 ```
 Open [http://localhost:3000](http://localhost:3000).
+
+---
+
+## 🚀 Deployment (Render)
+
+This project is optimized for deployment on **Render** using GitHub integration.
+
+### Settings:
+- **Build Command**: `pnpm install && pnpm run build`
+- **Start Command**: `pnpm run db:migrate && pnpm start` (Runs migrations before starting).
+- **Environment Variables**: See [`.env.example`](./.env.example).
+- **Secret Files**: Add your Firebase Admin SDK JSON via Render's "Secret Files" as `/etc/secrets/muhilan-firebase-credentials`.
 
 ---
 
