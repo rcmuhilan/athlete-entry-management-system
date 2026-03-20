@@ -1,0 +1,16 @@
+node_modules
+dist
+.env
+*.lock
+yarn.lock
+pnpm-lock.yaml
+.git
+.github
+README.md
+guide.md
+claude.md
+.vscode
+*.json
+!package.json
+!pnpm-workspace.yaml
+!muhilan-firebase-firebase-adminsdk*.json
